@@ -106,6 +106,7 @@ ___
 ![깃허브로고](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
 ```md
+[]대괄호로 이름, ()소괄호로 링크를 붙일 수 있다.
 [구글로 가기](https://google.com)
 
 ![깃허브로고](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
