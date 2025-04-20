@@ -68,7 +68,7 @@ HTML에서 표는 `<table>`로 만들고,
     <th>나이</th>
   </tr>
   <tr>
-    <td>루온</td>
+    <td>안준</td>
     <td>20</td>
   </tr>
 </table>
@@ -123,7 +123,7 @@ HTML에서 표는 `<table>`로 만들고,
     </tr>
     <tr>
       <td>이름</td>
-      <td>루온</td>
+      <td>안준</td>
     </tr>
     <tr>
       <td>목표</td>
