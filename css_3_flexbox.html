@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS 3일차</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 30px;
+      background: #f8f8f8;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      width: 200px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CSS 3일차: Flexbox 카드 배치</h1>
+
+  <div class="container">
+    <div class="card">
+      <h3>HTML</h3>
+      <p>웹의 구조를 만드는 언어</p>
+    </div>
+    <div class="card">
+      <h3>CSS</h3>
+      <p>스타일과 레이아웃을 담당</p>
+    </div>
+    <div class="card">
+      <h3>JavaScript</h3>
+      <p>웹을 동작하게 만드는 언어</p>
+    </div>
+  </div>
+
+</body>
+</html>
