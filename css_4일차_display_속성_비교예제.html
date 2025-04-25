@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>display 속성 비교</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    .title {
+      margin: 20px 0 10px;
+      font-weight: bold;
+    }
+    .box {
+      padding: 10px 20px;
+      margin: 5px;
+      background: #d0e6ff;
+      border: 1px solid #666;
+    }
+    .block { display: block; }
+    .inline { display: inline; }
+    .inline-block { display: inline-block; width: 120px; }
+    .none { display: none; }
+    .flex-container {
+      display: flex;
+      gap: 10px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 120px);
+      gap: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="title">1. display: block</div>
+  <div class="box block">Block 1</div>
+  <div class="box block">Block 2</div>
+
+  <div class="title">2. display: inline</div>
+  <span class="box inline">Inline 1</span>
+  <span class="box inline">Inline 2</span>
+
+  <div class="title">3. display: inline-block</div>
+  <span class="box inline-block">Inline-block 1</span>
+  <span class="box inline-block">Inline-block 2</span>
+
+  <div class="title">4. display: none</div>
+  <div class="box none">이건 안 보입니다</div>
+  <p>위 박스는 HTML에 있지만 화면에는 안 보여요.</p>
+
+  <div class="title">5. display: flex</div>
+  <div class="flex-container">
+    <div class="box">Flex 1</div>
+    <div class="box">Flex 2</div>
+    <div class="box">Flex 3</div>
+  </div>
+
+  <div class="title">6. display: grid</div>
+  <div class="grid-container">
+    <div class="box">Grid 1</div>
+    <div class="box">Grid 2</div>
+    <div class="box">Grid 3</div>
+    <div class="box">Grid 4</div>
+  </div>
+
+</body>
+</html>
