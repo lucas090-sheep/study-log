@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>AJAX 실전 예제</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    #postList { margin-top: 20px; }
+    .post { margin-bottom: 15px; padding: 10px; border: 1px solid #ddd; }
+  </style>
+</head>
+<body>
+
+  <h1>AJAX 실전 예제</h1>
+
+  <h2>📌 게시글 불러오기</h2>
+  <button onclick="loadPosts()">게시글 가져오기</button>
+  <div id="postList"></div>
+
+  <h2>📌 사용자 정보 등록</h2>
+  <form id="userForm" onsubmit="sendUser(event)">
+    <input type="text" id="username" placeholder="이름" required>
+    <input type="email" id="email" placeholder="이메일" required>
+    <button type="submit">등록</button>
+  </form>
+  <div id="result"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
